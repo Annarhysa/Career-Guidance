@@ -42,7 +42,7 @@ class Group extends StatelessWidget {
                         );
                         group = 1;
                       },
-                      child: Text('Class 9 to 10'),
+                      child: Text('Class 8 to 10'),
                     ),
                   ),
                   SizedBox(

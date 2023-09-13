@@ -16,6 +16,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'test.dart';
 import 'splashscreen.dart';
 import 'group.dart';
+import 'chatbot.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({super.key});
@@ -35,9 +36,7 @@ class _HomePageState extends State<HomePage> {
     Placeholder(
       child: Scaffold(body: Center(child: Text('Coming Soon'))),
     ),
-    Placeholder(
-      child: Scaffold(body: Center(child: Text('Coming Soon'))),
-    ),
+    ChatPage(),
     // Add more screens here
   ];
 
