@@ -1,8 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:hackheads/pages/homepage.dart';
 import 'data.dart';
 import 'widgets.dart';
 import 'dart:ui';
+import 'package:firebase_database/firebase_database.dart';
 
 class Register extends StatelessWidget {
   Register({super.key});
@@ -10,9 +12,57 @@ class Register extends StatelessWidget {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   TextEditingController email = TextEditingController();
   TextEditingController pass = TextEditingController();
+  TextEditingController t1 = TextEditingController();
+  TextEditingController t2 = TextEditingController();
+  TextEditingController t3 = TextEditingController();
+  TextEditingController t4 = TextEditingController();
+  TextEditingController t5 = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
+    void Reg(String email, String password, String age, String phone,
+        String city, String name) async {
+      try {
+        UserCredential userCredential = await FirebaseAuth.instance
+            .createUserWithEmailAndPassword(email: email, password: password);
+
+        if (userCredential.user != null) {
+          var uid = FirebaseAuth.instance.currentUser?.uid;
+          FirebaseDatabase database = FirebaseDatabase.instance;
+
+          DatabaseReference ref = FirebaseDatabase.instance.ref("users/$uid");
+
+          await ref.set({
+            "name": name,
+            "age": age,
+            "city": city,
+            "phone": phone,
+            "email": email
+          });
+          // DatabaseReference ref = FirebaseDatabase.instance.ref("users/$uid");
+          // print('1111');
+          // // await ref.set({
+          // //   "name": name,
+          // //   "email": email,
+          // //   "age": age,
+          // //   "phone": phone,
+          // //   "city": city
+          // // });
+          // print('22222222222');
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => HomePage()),
+          );
+          print("yes");
+        }
+      } on FirebaseAuthException catch (e) {
+        if (e.code == 'weak-password') {
+        } else if (e.code == 'email-already-in-use') {}
+      } catch (e) {
+        print(e);
+      }
+    }
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -66,6 +116,7 @@ class Register extends StatelessWidget {
                         height: 10.0,
                       ),
                       TextField(
+                        controller: t1,
                         style: const TextStyle(
                             fontSize: 16), // Adjust the font size if needed
                         decoration: InputDecoration(
@@ -129,6 +180,7 @@ class Register extends StatelessWidget {
                         height: 10.0,
                       ),
                       TextField(
+                        controller: t2,
                         style: const TextStyle(
                             fontSize: 16), // Adjust the font size if needed
                         decoration: InputDecoration(
@@ -160,6 +212,7 @@ class Register extends StatelessWidget {
                         height: 10.0,
                       ),
                       TextField(
+                        controller: t3,
                         style: const TextStyle(
                             fontSize: 16), // Adjust the font size if needed
                         decoration: InputDecoration(
@@ -191,6 +244,7 @@ class Register extends StatelessWidget {
                         height: 10.0,
                       ),
                       TextField(
+                        controller: t4,
                         style: const TextStyle(
                             fontSize: 16), // Adjust the font size if needed
                         decoration: InputDecoration(
@@ -249,24 +303,35 @@ class Register extends StatelessWidget {
                       ),
                       ElevatedButton(
                         onPressed: () async {
-                          // if (_formKey.currentState!.validate()) {
-                          //   try {
-                          //     final UserCredential userCredential =
-                          //         await _auth.createUserWithEmailAndPassword(
-                          //       email: email.text,
-                          //       password: pass.text,
-                          //     );
+                          Reg(email.text, pass.text, t2.text, t3.text, t4.text,
+                              t1.text);
+//                           try {
+//                             UserCredential userCredential = await FirebaseAuth
+//                                 .instance
+//                                 .createUserWithEmailAndPassword(
+//                                     email: email.text.trim(),
+//                                     password: pass.text.trim());
 
-                          //     if (userCredential.user != null) {
-                          //       // User has been successfully created.
-                          //       // You can navigate to the next screen or perform other actions here.
-                          //       print('User registration successful.');
-                          //     }
-                          //   } catch (e) {
-                          //     // Handle errors such as invalid email, weak password, etc.
-                          //     print('Error during registration: $e');
-                          //   }
-                          // }
+//                                     DatabaseReference userRef = FirebaseDatabase.instance.reference().child('users');
+//                 await userRef.child(userCredential.user.uid).set({
+//   'name': user.name,
+//   'email': user.email,
+//   'age': user.age,
+//   'phone': user.phone,
+//   'city': user.city,
+// });
+//                           } on FirebaseAuthException catch (e) {
+//                             if (e.code == 'weak-password') {
+//                             } else if (e.code == 'email-already-in-use') {}
+//                           } catch (e) {}
+
+//                           //here
+
+//                           Navigator.pushReplacement(
+//                             context,
+//                             MaterialPageRoute(builder: (context) => HomePage()),
+//                           );
+//                           print("yes");
                         },
                         child: Text(
                           'S u b m i t',

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:hackheads/components/widgets.dart';
 import '../components/data.dart';
 import '../components/contants.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Profile extends StatelessWidget {
   const Profile({super.key});
@@ -45,10 +46,7 @@ class Profile extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text('Name:'),
-                                  Text('Amartya Kumar')
-                                ],
+                                children: [Text('Name:'), Text(Fname)],
                               ),
                             ),
                             SizedBox(
@@ -71,7 +69,7 @@ class Profile extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
-                                children: [Text('Age:'), Text('20')],
+                                children: [Text('Age:'), Text(Fage)],
                               ),
                             ),
                             SizedBox(
@@ -94,10 +92,7 @@ class Profile extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text('Email:'),
-                                  Text('example@gmail.com')
-                                ],
+                                children: [Text('Email:'), Text(Femail)],
                               ),
                             ),
                             SizedBox(
@@ -120,7 +115,7 @@ class Profile extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
-                                children: [Text('Phone:'), Text('9112345678')],
+                                children: [Text('Phone:'), Text(Fphone)],
                               ),
                             ),
                             SizedBox(
@@ -143,7 +138,7 @@ class Profile extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
-                                children: [Text('City:'), Text('Patna')],
+                                children: [Text('City:'), Text(Fcity)],
                               ),
                             ),
                             SizedBox(
