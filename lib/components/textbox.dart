@@ -3,13 +3,15 @@
 import 'package:flutter/material.dart';
 
 class TextBox extends StatelessWidget {
-  TextBox({required this.hinttext, required this.icon});
+  TextBox({required this.hinttext, required this.icon, required this.con});
 
   final String? hinttext;
   final Widget? icon;
+  final con;
   @override
   Widget build(BuildContext context) {
     return TextField(
+      controller: con,
       obscureText: true,
       textAlign: TextAlign.center, // Center the text horizontally.
       style: TextStyle(fontSize: 16.0), // Adjust the font size.

@@ -12,7 +12,10 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:hackheads/pages/login.dart';
 import 'package:hackheads/pages/profile.dart';
 import 'package:hackheads/components/data.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'test.dart';
+import 'splashscreen.dart';
+import 'group.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({super.key});
@@ -28,12 +31,12 @@ class _HomePageState extends State<HomePage> {
 
   final List<Widget> _screens = [
     Home_Page(),
-    Test(),
+    Group(),
     Placeholder(
-      child: Center(child: Text('Coming Soon')),
+      child: Scaffold(body: Center(child: Text('Coming Soon'))),
     ),
     Placeholder(
-      child: Center(child: Text('Coming Soon')),
+      child: Scaffold(body: Center(child: Text('Coming Soon'))),
     ),
     // Add more screens here
   ];
@@ -58,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                 _selectedIndex = index;
               });
             },
-            padding: EdgeInsets.all(20.0),
+            // padding: EdgeInsets.all(20.0),
             tabs: [
               GButton(
                 icon: Icons.home,
@@ -110,7 +113,7 @@ class Home_Page extends StatelessWidget {
                   height: 20.0,
                 ),
                 Text(
-                  'Himanshu !!',
+                  '$Fname !!',
                   style: TextStyle(fontSize: 20.0),
                 ),
                 SizedBox(
@@ -128,10 +131,15 @@ class Home_Page extends StatelessWidget {
                         children: [
                           Row(
                             children: [
-                              Icon(Icons.star),
+                              Image.asset('assets/Group-40.png'),
+                              SizedBox(
+                                width: 10.0,
+                              ),
                               Text(
-                                'Great\nDecesion',
-                                style: TextStyle(fontSize: 30.0),
+                                'Great\nDecision',
+                                style: TextStyle(
+                                    fontSize: 25.0,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ],
                           ),
@@ -144,24 +152,14 @@ class Home_Page extends StatelessWidget {
                               );
                             },
                             child: Material(
-                              elevation:
-                                  10.0, // Set the elevation value to give it a shadow.
-                              shape: CircleBorder(), // Create a circular shape.
-                              child: Container(
-                                width:
-                                    60.0, // Set the width of the circular container.
-                                height:
-                                    60.0, // Set the height of the circular container.
-                                decoration: BoxDecoration(
-                                    shape: BoxShape.circle,
-                                    color: Color(
-                                        0xFFFAD89F) // Set the background color of the circular container.
-                                    ),
-                                child: Center(
-                                  child: Text(
-                                    'OK',
-                                    textAlign: TextAlign.center,
-                                  ),
+                              elevation: 15.0,
+                              shape: CircleBorder(),
+                              child: SizedBox(
+                                width: 60.0,
+                                height: 60.0,
+                                child: Image.asset(
+                                  'assets/user_icon.png',
+                                  fit: BoxFit.cover,
                                 ),
                               ),
                             ),
