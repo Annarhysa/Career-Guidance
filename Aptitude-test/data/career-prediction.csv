@@ -1,0 +1,82 @@
+Gender,Age,Grade/Class,Math Score,Science Score,Language Arts Score,Social Studies Score,Critical Thinking Score,General Knowledge Score,Practical Skills Score,Extraversion Score,Agreeableness Score,Conscientiousness Score,Openness Score,Emotional Stability Score,Values/Beliefs Score,Career Guidance Recommendation
+Male,16,11th,85,92,78,87,75,70,88,65,78,75,72,80,60,Engineering
+Female,17,12th,92,88,95,80,88,82,90,72,84,90,75,68,78,Medicine
+Male,15,10th,78,80,88,75,70,68,80,60,70,68,65,62,70,Computer Science
+Female,16,11th,90,85,75,80,78,70,85,70,78,82,75,75,78,Business Management
+Male,17,12th,80,88,90,85,75,80,78,65,68,75,80,72,75,Environmental Science
+Female,16,11th,88,90,85,78,80,72,82,75,80,85,78,70,75,Psychology
+Male,17,12th,78,82,92,80,75,68,88,68,70,78,85,75,68,Electrical Engineering
+Female,16,10th,85,78,80,90,70,72,75,78,85,80,75,75,80,Medicine
+Male,17,12th,92,85,88,78,82,75,90,75,75,85,80,70,72,Computer Science
+Female,15,10th,80,75,78,85,68,70,72,70,78,75,68,75,68,Environmental Science
+Male,16,11th,88,82,85,75,78,68,82,68,70,75,78,82,65,Business Management
+Female,17,12th,75,78,90,80,85,75,88,75,80,85,75,70,80,Psychology
+Male,15,10th,78,75,80,78,70,68,75,70,72,70,68,68,75,Environmental Science
+Female,16,11th,85,88,92,85,82,78,85,75,78,82,75,75,78,Medicine
+Male,17,12th,90,85,78,80,80,75,90,70,75,80,82,72,75,Computer Science
+Female,15,10th,78,80,75,75,70,68,72,68,75,70,70,75,70,Psychology
+Male,16,11th,88,82,90,85,75,78,85,78,82,85,75,80,78,Environmental Science
+Female,17,12th,75,78,85,80,68,70,78,70,75,75,78,75,75,Business Management
+Male,15,10th,80,75,78,75,75,68,72,70,70,70,70,72,65,Engineering
+Female,16,11th,85,88,90,78,80,72,85,75,78,80,75,78,75,Medicine
+Male,17,12th,90,85,80,85,78,75,90,78,80,85,82,70,75,Computer Science
+Female,15,10th,75,78,85,75,70,70,75,70,72,75,70,75,65,Psychology
+Male,16,11th,85,82,90,80,82,78,85,78,75,80,78,75,78,Environmental Science
+Female,17,12th,88,88,80,85,75,75,90,75,78,82,82,70,75,Business Management
+Male,15,10th,78,75,78,75,70,70,78,70,70,75,72,68,75,Engineering
+Female,16,11th,90,85,85,78,82,75,85,78,75,80,75,75,78,Medicine
+Male,17,12th,80,78,92,85,78,75,90,75,75,85,78,70,78,Computer Science
+Female,15,10th,85,80,75,80,75,70,78,75,70,75,70,75,75,Psychology
+Male,16,11th,88,85,90,85,78,78,85,80,80,82,80,70,78,Engineering
+Female,17,12th,75,78,80,85,70,75,78,70,70,75,75,75,70,Business Management
+Female,16,11th,88,90,85,78,80,72,82,75,80,85,78,70,75,Psychology
+Male,17,12th,75,80,90,80,75,75,85,70,75,78,82,70,75,Computer Science
+Female,16,10th,85,78,85,75,70,70,75,78,85,80,75,75,80,Medicine
+Male,17,12th,78,85,78,80,80,75,85,75,75,85,80,70,72,Environmental Science
+Female,15,10th,80,75,75,85,68,70,72,70,78,75,75,75,68,Psychology
+Male,16,11th,85,80,85,75,78,75,82,70,75,80,78,75,75,Business Management
+Female,17,12th,78,78,90,85,80,75,88,75,80,85,78,70,80,Computer Science
+Male,15,10th,85,75,80,78,70,70,75,70,72,70,75,70,70,Engineering
+Female,16,11th,88,85,92,80,82,78,85,75,78,82,75,75,78,Medicine
+Male,17,12th,90,85,78,80,80,75,90,70,75,80,82,70,75,Environmental Science
+Gender,Age,Grade/Class,Math Score,Science Score,Language Arts Score,Social Studies Score,Critical Thinking Score,General Knowledge Score,Practical Skills Score,Extraversion Score,Agreeableness Score,Conscientiousness Score,Openness Score,Emotional Stability Score,Values/Beliefs Score,
+Female,16,11th,85,90,78,85,80,70,88,65,78,75,72,80,60,Engineering
+Male,17,12th,92,88,95,80,88,82,90,72,84,90,75,68,78,Medicine
+Female,15,10th,78,80,88,75,70,68,80,60,70,68,65,62,70,Computer Science
+Male,16,11th,90,85,75,80,78,70,85,70,78,82,75,75,78,Business Management
+Female,17,12th,80,88,90,85,75,80,78,65,68,75,80,72,75,Environmental Science
+Male,16,11th,88,90,85,78,80,72,82,75,80,85,78,70,75,Psychology
+Female,17,12th,78,82,92,80,75,68,88,68,70,78,85,75,68,Electrical Engineering
+Male,16,10th,85,78,80,90,70,72,75,78,85,80,75,75,80,Medicine
+Female,17,12th,92,85,88,78,82,75,90,75,75,85,80,70,72,Computer Science
+Male,15,10th,78,75,78,75,70,68,72,70,72,70,68,68,75,Environmental Science
+Female,16,11th,88,82,85,75,78,68,82,68,70,75,78,82,65,Business Management
+Male,17,12th,75,78,90,80,85,75,88,75,80,85,75,70,80,Psychology
+Female,15,10th,78,75,80,78,70,70,75,70,72,75,70,75,65,Engineering
+Female,16,11th,85,88,92,85,82,78,85,75,78,82,75,75,78,Medicine
+Male,17,12th,90,85,78,80,80,75,90,70,75,80,82,70,75,Computer Science
+Female,15,10th,78,75,78,75,70,70,78,70,70,75,72,68,75,Environmental Science
+Male,16,11th,88,82,90,85,75,78,85,78,82,85,75,80,78,Business Management
+Female,17,12th,75,78,85,80,68,70,78,70,75,75,78,75,75,Engineering
+Male,15,10th,80,75,78,75,75,68,72,70,70,70,70,72,65,Psychology
+Female,16,11th,85,88,90,78,80,75,85,75,78,80,75,78,75,Medicine
+Male,17,12th,90,85,80,85,78,75,90,78,80,85,82,70,75,Computer Science
+Female,15,10th,75,78,85,75,70,70,75,70,72,75,70,75,65,Engineering
+Female,16,11th,85,82,90,80,82,78,85,78,75,80,78,75,78,Environmental Science
+Male,17,12th,88,88,80,85,75,75,90,75,78,82,82,70,75,Business Management
+Female,15,10th,78,75,78,75,70,70,78,70,70,75,75,75,70,Psychology
+Male,16,11th,85,80,85,75,78,75,82,70,75,80,78,75,75,Engineering
+Female,17,12th,80,78,92,85,78,75,90,75,75,85,78,70,75,Computer Science
+Male,15,10th,85,80,75,80,75,70,78,75,70,75,70,75,75,Medicine
+Female,16,11th,88,90,85,78,80,72,82,75,80,85,78,70,75,Psychology
+Male,17,12th,75,80,90,80,75,75,85,70,75,78,82,70,75,Computer Science
+Female,15,10th,85,78,85,75,70,70,75,78,85,80,75,75,80,Engineering
+Female,16,11th,88,85,92,80,82,78,85,75,78,82,75,75,78,Medicine
+Male,17,12th,90,85,78,80,80,75,90,70,75,80,82,70,75,Environmental Science
+Female,15,10th,78,75,80,78,70,70,75,70,72,75,70,75,65,Psychology
+Male,16,11th,88,82,85,75,78,68,82,68,70,75,78,82,65,Business Management
+Female,17,12th,75,78,90,80,85,75,88,75,80,85,75,70,80,Environmental Science
+Male,15,10th,80,75,78,75,75,68,72,70,70,70,70,72,65,Engineering
+Female,16,11th,85,88,90,78,80,75,85,75,78,82,75,75,78,Medicine
+Male,17,12th,90,85,80,85,78,75,90,70,75,80,82,70,75,Computer Science
+Female,15,10th,75,78,85,75,70,70,75,70,72,75,70,75,65,Psychology
