@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../components/data.dart';
+import '../pages/homepage.dart';
 
 class LineOrLine extends StatelessWidget {
   const LineOrLine({
@@ -117,7 +118,14 @@ class SignInWithGoogle extends StatelessWidget {
       height: height * 0.061,
       padding: EdgeInsets.only(left: width * 0.147, right: width * 0.147),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushReplacement<void, void>(
+            context,
+            MaterialPageRoute<void>(
+              builder: (BuildContext context) => HomePage(),
+            ),
+          );
+        },
         style: ElevatedButton.styleFrom(
           backgroundColor: Color(0xFFF4E2BF),
           shape: RoundedRectangleBorder(
