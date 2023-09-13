@@ -17,6 +17,7 @@ import 'test.dart';
 import 'splashscreen.dart';
 import 'group.dart';
 import 'chatbot.dart';
+import 'library.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({super.key});
@@ -33,9 +34,7 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _screens = [
     Home_Page(),
     Group(),
-    Placeholder(
-      child: Scaffold(body: Center(child: Text('Coming Soon'))),
-    ),
+    Library(),
     ChatPage(),
     // Add more screens here
   ];
