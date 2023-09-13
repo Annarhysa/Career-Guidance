@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87808788716",
+    "project_id": "careerwis",
+    "storage_bucket": "careerwis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87808788716:android:084e7a668872e608ef7dc9",
+        "android_client_info": {
+          "package_name": "com.example.hackheads"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH_ftxwGeE-GzhK08rUZdgPPwrQ7QQSyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
