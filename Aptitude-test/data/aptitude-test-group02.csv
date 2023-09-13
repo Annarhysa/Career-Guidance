@@ -1,0 +1,41 @@
+Type,Question,Option_A,Option_B,Option_C,Option_D,Correct_answer
+Math,Calculate the derivative of f(x) = 2x^3 - 6x^2 + 4x - 1.,6x^2 - 12x + 4,6x^2 - 12x + 3,3x^2 - 6x + 2,2x^4 - 6x^3 + 4x^2 - 1,a
+Math,Solve the equation: log(x) = 2.,x = 0,x = 1,x = 10,x = 100,d
+Math,What is the value of the integral ∫(2x + 3) dx from 0 to 4?,14,16,18,20,c
+Math,Find the solution to the system of equations: 3x - 2y = 7 2x + y = 5,"x = 3, y = -1","x = 2, y = 1","x = 1, y = 2","x = 0, y = 3",a
+Math,What is the value of sin(π/3)?,√2/2,√3/2,1/2,1,b
+Math,"If a right triangle has one angle of 30 degrees, what is the measure of the other acute angle?",30 degrees,45 degrees,60 degrees,90 degrees,c
+Math,Evaluate: √(16) + √(25) - √(9).,10,11,12,14,a
+Math,Calculate the value of 5! (5 factorial).,10,20,120,60,c
+Math,Find the solution to the equation: |2x - 5| = 7.,x = -1,x = 6,x = 1,x = 4,b
+Math,"If a circle has a radius of 6 inches, what is its circumference?",6π inches,12π inches,18π inches,36π inches,b
+Language Arts ,"Identify the literary device used in the sentence: ""The stars danced in the night sky.""",Smile,Metaphor,Personification,Hyperbole,c
+Language Arts ,"In Shakespeare's play ""Macbeth,"" what is the name of the three witches who make predictions?",The Weird Sisters,The Enchanting Trio,The Mystic Coven,The Spellbinding Witches,a
+Language Arts ,Which of the following is an example of a tragic flaw in literature?,A character's kindness,A character's intelligence,A character's excessive pride,A character's loyalty,c
+Language Arts ,What literary term describes the repetition of consonant sounds at the beginning of words in a sentence?,Smile,Alliteration,Hyperbole,Onomatopoeia,b
+Language Arts ,"Who is the author of the novel ""Pride and Prejudice""?",Charles Dickens,Jane Austen,Emily Brontë,Leo Tolstoy,b
+Science,What is the chemical symbol for the element iron?,Ir,In,Fe,Fi,c
+Science,Which gas is responsible for the green color in plants' leaves during photosynthesis?,Oxygen,Nitrogen,Carbon dioxide,Chlorophyll,d
+Science,What is the process by which plants lose water vapor through tiny openings in their leaves?,Photosynthesis,Transpiration,Respiration,Fermentation,b
+Science,Which planet in our solar system has the largest number of moons?,Earth,Jupiter,Saturn,Mars,b
+Science,What is the unit of measurement for electric resistance?,Ohms,Volts,Amperes,Watts,a
+Social Studies,Who is often credited with the invention of the World Wide Web?,Bill Gates,Tim Berners-Lee,Steve Jobs,Mark Zuckerberg,b
+Social Studies,What was the major event that marked the beginning of World War I?,The sinking of the Titanic,The assassination of Archduke Franz Ferdinand,The signing of the Treaty of Versailles,The Battle of Stalingrad,b
+Social Studies,"Which country is known as the ""Land of the Rising Sun""?",China,India,Japan,South Korea,c
+Social Studies,Who was the first woman to fly solo across the Atlantic Ocean?,Amelia Earhart,Bessie Coleman,Harriet Quimby,Sally Ride,a
+Social Studies,"Which document begins with the words, ""We the People""?",The Declaration of Independence,The Gettysburg Address,The U.S. Constitution,The Bill of Rights,c
+Critical Thinking and Problem Solving ,"If a car travels at a constant speed of 60 miles per hour, how long does it take to travel 120 miles?",1 hour,2 hour,3 hour,4 hour,b
+Critical Thinking and Problem Solving ,"What is the next number in the sequence: 1, 4, 9, 16, ___?",20,25,36,49,c
+Critical Thinking and Problem Solving ,"If a box contains 24 red balls and 16 blue balls, what is the probability of randomly selecting a red ball?",1/2,2/3,3/4,4/5,b
+Critical Thinking and Problem Solving ,What is the square root of 144?,12,16,10,14,a
+Critical Thinking and Problem Solving ,"If a triangle has angles measuring 45 degrees, 45 degrees, and 90 degrees, what type of triangle is it?",Equilateral,Isosceles,Scalene,Right,d
+General Knowledge ,"Who wrote the play ""Hamlet""?",William Shakespeare,George Orwell,F. Scott Fitzgerald,Charles Dickens,a
+General Knowledge ,What is the longest river in the world?,Amazon River,Nile River,Mississippi River,Yangtze River,b
+General Knowledge ,Which gas makes up the majority of Earth's atmosphere?,Carbon dioxide,Oxygen,Nitrogen,Hydrogen,c
+General Knowledge ,"Who is the author of the novel ""To Kill a Mockingbird""?",Harper Lee,Mark Twain,J.K. Rowling,George Orwell,a
+General Knowledge ,What is the chemical symbol for the element gold?,Go,Gd,Au,Ag,c
+Practical Skills ,What is the first step in performing CPR (Cardiopulmonary Resuscitation)?,Call 911,Check for breathing,Begin chest compressions,Tilt the head back,b
+Practical Skills ,How do you properly use a fire extinguisher in case of a small fire?,Spray it in the air,Aim at the base of the fire and squeeze the handle,Pour water on the fire,Shake it vigorously before use,b
+Practical Skills ,Which of the following is a common method for conserving energy in a household?,Leaving lights on when not needed,Setting the thermostat to a very high temperature in winter,Using energy-efficient light bulbs,Running appliances on their highest settings,c
+Practical Skills ,What should you do if someone is choking and cannot breathe or speak?,Offer them water to drink,Perform the Heimlich maneuver,Hit them on the back,Ignore them and wait for help,b
+Practical Skills ,How should you safely handle a knife in the kitchen?,Hold it with the blade facing outward,Carry it by the handle with the blade down,Use it for tasks it's not designed for,Leave it on the edge of the counter,b

@@ -1,0 +1,41 @@
+Type,Question,Option_A,Option_B,Option_C,Option_D,Correct_answer
+Math,What is the value of 3/4 + 1/8? ,5/8,7/8,1/2,1,b
+Math,Solve for x: 2x - 5 = 15. ,x = 10 , x = 20, x = 5 ,x = 8,a
+Math,Find the area of a rectangle with a length of 12 units and a width of 6 units,18 sq units,72 sq units ,36 sq units ,48 sq units,c
+Math,Calculate the area of a triangle with a base of 6 units and a height of 8 units.,12 square units,24 square units,48 square units,32 square units,b
+Math,What is the value of 5^3 (5 raised to the power of 3)?,15,125,75,500,b
+Math,Simplify: 4(3x - 2) - 2(2x + 5).,6x - 12,10x - 14,6x + 12,10x + 14,a
+Math,"If a box contains 24 apples and you take out 3, how many apples are left?",24,21,3,27,b
+Math,What is the least common multiple (LCM) of 6 and 8?,12,18,24,48,c
+Math,"If the circumference of a circle is 36π (pi) units, what is its radius?",6 units,9 units,12 units,18 units,b
+Math,Solve for y: 2y + 7 = 15.,y = 4,y = 8 ,y = 14,y = 5,a
+Language Arts ,"Identify the noun in the following sentence: ""The cat chased the mouse.""",cat ,chased,the ,mouse,a
+Language Arts ,Which of the following sentences is written in the past tense?,She is eating dinner,They will go to the park,He walked to school,We are playing games,c
+Language Arts ,"What is the synonym for ""joyful""?",Sad ,Angry,Happy ,Excited,c
+Language Arts ,"In the sentence, ""The book is on the shelf,"" what is the preposition?",is ,on ,the ,book,b
+Language Arts ,Which of the following sentences is a question?,It is sunny outside,She ate lunch at noon,Are you coming to the party?,They play soccer after school.,c
+Science,What is the chemical symbol for the element oxygen?,O,Ox,Oxg,Om,a
+Science,"Which planet in our solar system is known as the ""Red Planet""?",Earth ,Mars ,Venus ,Jupiter ,b
+Science,What is the process by which plants make their own food using sunlight?,Respiration,Digestion,Photosynthesis,Transpiration,c
+Science,Which gas is most abundant in Earth's atmosphere?,Carbon dioxide,Oxygen,Nitrogen ,Hydrogen,c
+Science,What is the unit of measurement for electric current?,Volts,Ohms,Amperes,Watts,c
+Social Studies,What is the capital city of Japan?,Beijing,Seoul,Tokyo ,Bangkok,c
+Social Studies,Who was the first President of the United States?,Thomas Jefferson,John Adams,George Washington,Abraham Lincoln,c
+Social Studies,What is the largest continent by land area?,Africa ,Asia ,North America ,Europe,b
+Social Studies,In which year did Christopher Columbus first arrive in the Americas?,1492,1620,1776,1865,a
+Social Studies,What is the longest river in the world?,Amazon river,Nile river ,Mississippi river,Yangtze river,b
+Critical Thinking and Problem Solving ,"If A = 3, B = 6, and C = 9, what is the value of 2A + 3B - C?",9,12,15,8,b
+Critical Thinking and Problem Solving ,"What is the next number in the sequence: 1, 4, 9, 16, ___?",20,25,32,36,b
+Critical Thinking and Problem Solving ,"If a rectangle has a length of 8 inches and a width of 6 inches, what is its perimeter?",12 inches,14 inches,24 inches,28 inches,c
+Critical Thinking and Problem Solving ,"You have $20, and you buy a book for $8 and a toy for $5. How much money do you have left?",$7,$12,$5,$3,a
+Critical Thinking and Problem Solving ,"If a train travels at a speed of 60 miles per hour and the journey takes 3 hours, how far does it travel?",120 miles,180 miles,240 miles ,360 miles,a
+General Knowledge ,"Who wrote the play ""Romeo and Juliet""?",William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,a
+General Knowledge ,What is the largest planet in our solar system?,Earth ,Mars ,Venus ,Jupiter,d
+General Knowledge ,Who is the current Prime Minister of the United Kingdom (as of my last knowledge update in September 2021)?,Boris Johnson,Theresa May,David Cameron ,Tony Blair,a
+General Knowledge ,What is the chemical symbol for gold?,Go ,Gd ,Au ,Ag,c
+General Knowledge ,Which famous scientist is known for the theory of relativity?,Issac Newton,Galileo Galilei ,Albert Einstein,Stephen Hawking ,c
+Practical Skills ,"If you need to boil water, which appliance would you most likely use?",Toaster ,Microwave,Blender ,Kettle,d
+Practical Skills ,What is the first step in washing your hands properly?,Dry your hands with water,Rinse your hands with water,Apply soap to your hands,Shake hands vigorously,b
+Practical Skills ,How many quarts are in a gallon?,2,4,8,16,b
+Practical Skills ,Which tool would you use to tighten a loose screw?,Hammer ,Screwdriver ,Pliers ,Wrench,b
+Practical Skills ,What should you do if you accidentally spill a glass of water on the floor?,Leave it and let it evaporate,Wipe it up with a towel or mop.,Step over it and continue walking ,Ignore it; it will dry on its own.,b
