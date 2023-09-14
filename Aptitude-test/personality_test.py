@@ -5,7 +5,7 @@ import pickle
 
 # importing the dataset
 #dataset = pd.read_csv('data/aptitude-test-group01.csv')
-Pkl_file = 'CareerWise/Aptitude-test/pickle_model'
+Pkl_file = 'pickle_model'
 with open(Pkl_file, 'rb') as file:
     classifier=pickle.load(file)
 
