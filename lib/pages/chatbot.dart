@@ -1,5 +1,6 @@
+import 'dart:convert';
 import 'dart:math';
-
+import 'package:hackheads/functions.dart';
 import 'package:flutter/material.dart';
 
 class ChatPage extends StatefulWidget {
@@ -27,11 +28,26 @@ class _ChatPageState extends State<ChatPage> {
     'Tell me more.',
     'That sounds interesting!',
   ];
-
+  String url = '', output = 'Initial';
+  var data;
   // Function to send a message
-  void sendMessage() {
+  void sendMessage() async {
     final message = messageController.text.trim();
     if (message.isNotEmpty) {
+      try {
+        // Your HTTP request code here
+        url = 'http://10.0.2.2:5000/api?query=' + message.toString();
+        data = await fetchData(url);
+        var decoded = jsonDecode(data);
+        setState(() {
+          output = decoded['output'];
+          print(output);
+          print('------------------');
+        });
+      } catch (e) {
+        print('Error: $e');
+      }
+
       setState(() {
         messages.insert(0, _ChatMessage(message, true)); // Sent by the user
         final randomReply = replies[random.nextInt(replies.length)];
