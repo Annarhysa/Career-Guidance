@@ -3,13 +3,19 @@ import pandas as pd
 import joblib
 import pickle
 
+word_list = np.array([['dependable', 0],
+       ['serious', 4],
+       ['responsible', 3],
+       ['extraverted', 1],
+       ['lively', 2]])
+
 # importing the dataset
 #dataset = pd.read_csv('data/aptitude-test-group01.csv')
-Pkl_file = 'pickle_model'
+Pkl_file = 'C:/Users/annar/OneDrive/Desktop/Visual Studio/GitHub/SIH/CareerWise/Aptitude-test/pickle_model'
 with open(Pkl_file, 'rb') as file:
     classifier=pickle.load(file)
 
 input = np.array([18,  0,  2, 80, 75, 85, 90, 80, 70])
 input = input.reshape(1,-1)
 pred = classifier.predict(input)
-print(pred)
+print(word_list[pred[0],pred[0]])
