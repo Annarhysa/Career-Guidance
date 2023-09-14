@@ -18,4 +18,7 @@ with open(Pkl_file, 'rb') as file:
 input = np.array([18,  0,  2, 80, 75, 85, 90, 80, 70])
 input = input.reshape(1,-1)
 pred = classifier.predict(input)
-print(word_list[pred[0],pred[0]])
+for item in word_list:
+    if int(item[1])== pred[0]:
+        print(item[0])
+        break
